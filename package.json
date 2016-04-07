@@ -1,0 +1,42 @@
+{
+  "name": "fontmin-dump",
+  "version": "0.0.1",
+  "description": "fontmin dump plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junmer/fontmin-dump.git"
+  },
+  "files": [
+    "index.js",
+    "preview.tpl"
+  ],
+  "keywords": [
+    "icon",
+    "font",
+    "dump",
+    "fontmin"
+  ],
+  "author": "junmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junmer/fontmin-dump/issues"
+  },
+  "homepage": "https://github.com/junmer/fontmin-dump#readme",
+  "dependencies": {
+    "b3b": "0.0.1",
+    "fonteditor-core": "0.0.16",
+    "lodash": "^4.8.2",
+    "replace-ext": "0.0.1",
+    "through2": "^2.0.1",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "mocha": "^2.1.0",
+    "vinyl-fs": "^2.3.1"
+  }
+}
